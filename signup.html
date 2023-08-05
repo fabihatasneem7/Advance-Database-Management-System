@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <div class="loginBg">
+        <div class="loginform">
+            <form action="../controllers/signup_controller.php" method="post" novalidate">
+                <h1>User Sign Up</h1> <br>
+                <label for="rname">Name</label>
+                <input type="text" name="rname" id="rname" placeholder="User Name" value="">
+                <p class="error" id="srname_err"></p>
+
+                <br><label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <p class="error" id="semail_err"></p>
+
+                <br><label for="password">Password</label>
+                <input type="password" name="password" placeholder="Password" id="password">
+                <p class="error" id="spass_err"></p>
+
+                <br><label for="cpassword">Phone Number</label>
+                <input class="inputD" type="text" name="pnumber" id="pnumber" placeholder="Phone Number">
+                <p class="error" id="scpass_err"></p>
+
+                <br><input class="button" type="submit" value="Sign Up"><br>
+
+                <p>
+                    Already have an account? <a href="login.html">Login</a><br>
+                    Forget your passowrd <a href="#">Reset Now</a>
+                </p>
+            </form>
+            <div>
+                <img src="./image/w2.jpeg" alt="" width="100%" height="100%" style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

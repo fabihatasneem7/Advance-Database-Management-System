@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Matrimony Website Pricing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/subscription.css">
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-light">
+        <div class="container-lg">
+            <a class="navbar-brand" style="font-weight: bold;" href="#">SPOUSE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="conversation.html">Conversation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="match.html">Match</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="subscription.html">Subscripton</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="login.html">Logout</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Subscription Plans</h1>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Bronze</h3>
+                <p>Get core features and benefits with our Bronze package</p>
+                <div class="price">300 BDT</div>
+                <ul>
+                    <li>3 Daily Matches</li>
+                    <li>Priority Support</li>
+                    <li>Instant Messaging</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Silver</h3>
+                <p>Get more features and benefits with our Silver package</p>
+                <div class="price">400 BDT</div>
+                <ul>
+                    <li>10 Daily Matches</li>
+                    <li>Priority Support</li>
+                    <li>Instant Messaging</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Gold</h3>
+                <p>Get the ultimate Matrimony experience with our Gold package</p>
+                <div class="price">500 BDT</div>
+                <ul>
+                    <li>Unlimited Daily Matches</li>
+                    <li>24/7 Support</li>
+                    <li>Instant Messaging</li>
+                    <li>Verified Profiles</li>
+                </ul>
+                <a href="#" class="btn">Choose Plan</a>
+            </div>
+        </div>
+    </div>
+    <section class="subscription-section">
+        <h2 style="font-weight: bold;">Subscription Details</h2>
+        <form>
+            <div class="subscription-plan">
+                <label>Choose Subscription Plan:</label><br>
+                <input type="radio" id="bronze" name="subscription" value="bronze">
+                <label for="bronze">Bronze</label><br>
+                <input type="radio" id="silver" name="subscription" value="silver">
+                <label for="silver">Silver</label><br>
+                <input type="radio" id="gold" name="subscription" value="gold">
+                <label for="gold">Gold</label><br>
+            </div>
+            <div class="payment-method">
+                <label>Choose Payment Method:</label><br>
+                <input type="radio" id="bkash" name="payment" value="bkash">
+                <label for="bkash">Bkash</label><br>
+                <input type="radio" id="nagad" name="payment" value="nagad">
+                <label for="nagad">Nagad</label><br>
+                <input type="radio" id="bank" name="payment" value="bank">
+                <label for="bank">Bank</label><br>
+            </div>
+            <button type="submit">Make Payment</button>
+        </form>
+    </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
